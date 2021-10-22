@@ -1,0 +1,95 @@
+.header {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__nav a {
+  text-decoration: none;
+}
+
+
+.header__foodOptions{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.header__AuthCart{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.header__optionLineOne {
+  font-weight: 800;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header__optionLineOne:hover {
+  color:lightskyblue;
+}
+
+.header__authLineOne {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.header__authLineOne:hover {
+  color:lightskyblue;
+}
+
+.header__authLineTwo {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.header__authLineTwo:hover {
+  color:lightskyblue;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__optionShoppingCart {
+  margin-left: 10px;
+  color: white;
+}
+.header__optionShoppingCart:hover {
+  color: lightskyblue;
+}
+
+.header__shoppingCartCount {
+  color:chocolate;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__shoppingCartCount:hover {
+  color:lightskyblue;
+}
